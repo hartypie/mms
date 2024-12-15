@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typy kytar</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+  <style>
+        body {
+            font-size: 20px; 
+            line-height: 1.6; 
+        }
+        h1 {
+            font-size: 36px; 
+        }
+        h2 {
+            font-size: 28px; 
+        }
+    </style>
+<body>
+    <header>
+        <h1>Typy kytar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="types.html">Typy kytar</a></li>
+                <li><a href="tutorials.html">Jak hrát</a></li>
+                <li><a href="guitarists.html">Legendární kytaristé</a></li>
+                <li><a href="history.html">Historie kytary</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Akustická kytara</h2>
+            <center><p>Akustická kytara je jedním z nejstarších a nejuniverzálnějších hudebních nástrojů. Její čistý a přirozený zvuk pochází z dutého těla, které zesiluje vibrace strun. Tento typ kytary je ideální pro sólovou hru i doprovod, a proto se často používá ve folku, 
+			klasické hudbě, country a mnoha dalších žánrech. Akustická kytara se hodí pro začátečníky díky své jednoduchosti a přirozenému ladění.</p></center>
+         <center>   <audio controls>
+    <source src="audio/careless.mp3" type="audio/mpeg"> 
+    Váš prohlížeč nepodporuje zvuk. Stáhněte si <a href=„audio/example.mp3“>zde</a>.
+</audio></center>
+        </section>
+        <section>
+            <h2>Elektrická kytara</h2>
+            <center><p>Elektrická kytara, která vznikla ve 20. století, přinesla revoluci do hudebního průmyslu. Díky zesilovačům a efektovým pedálům umožňuje hráčům vytvářet jedinečné zvuky a tóny, které byly dříve nepředstavitelné. Elektrická kytara se stala klíčovým nástrojem v žánrech jako rock, metal, blues a jazz. Její štíhlý design a schopnost přizpůsobit se různým hudebním stylům z ní činí nástroj nejen pro profesionály, ale i pro nadšené amatéry.</p>
+           </center>
+		<center>   <audio controls>
+    <source src="audio/stairway.mp3" type="audio/mpeg"> 
+   Váš prohlížeč nepodporuje zvuk. Stáhněte si <a href=„audio/example.mp3“>zde</a>.
+</audio></center>
+        </section>
+        <section>
+            <h2>Baskytara</h2>
+           <center> <p>Baskytara je základem rytmické sekce každé hudební kapely. Její hluboké tóny vytvářejí pevný základ pro ostatní nástroje a určují tempo skladby. Baskytara má obvykle čtyři struny, laděné o oktávu níže než standardní kytara. Využívá se v široké škále žánrů, včetně funku, jazzu, rocku a popu. I přes svou jednoduchost je hra na baskytaru klíčová pro celkovou dynamiku a harmonii hudební skladby.</p>
+           </center>
+		   
+        </section>
+		<section>
+            <h2>Nejrozšířenější typy kytar</h2>
+           <center> <p>Pro lepší představu o rozmanitosti kytar vám nabízíme galerii, kde najdete tři nejoblíbenější modely elektrických kytar, klasickou akustickou kytaru a elegantní baskytaru. Tato vizuální ukázka vám umožní lépe pochopit rozdíly mezi jednotlivými nástroji a ocenit jejich krásu.</p>
+           </center>
+        </section>
+		
+		<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <center> <div class="numbertext">1 / 5</div> </center>
+    <center><img src="images/stratocaster_1.jpg" style="border: 5px double#008080;" width="600" height="600"></center>
+     <div class="text">Stratocaster</div>
+  </div>
+
+  <div class="mySlides fade">
+    <center> <div class="numbertext">2 / 5</div> </center>
+    <center><img src="images/telecaster_.jpg" alt="telecaster" style="border: 5px double#008080;" width="600" height="600"></center>
+     <div class="text">Telecaster</div>
+  </div>
+
+  <div class="mySlides fade">
+    <center> <div class="numbertext">3 / 5</div> </center>
+    <center><img src="images/les_paul_1.jpg" alt="les_paul" style="border: 5px double#008080;" width="600" height="600"></center>
+    <div class="text">Les paul</div>
+  </div>
+  <div class="mySlides fade">
+    <center> <div class="numbertext">4 / 5</div> </center> 
+    <center><img src="images/bas.jpg" alt="bas" style="border: 5px double#008080;" width="600" height="600"></center>
+     <div class="text">Bas kytara</div>
+  </div>
+   <div class="mySlides fade">
+    <center> <div class="numbertext">5 / 5</div> </center>
+    <center><img src="images/dreadnought_1.jpg" alt="dreadnought" style="border: 5px double#008080;" width="600" height="600"></center>
+     <div class="text">Dreadnought</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    </main>
+    <footer>
+        <p>&copy; 2024 Kytarový svět</p>
+    </footer>
+</body>
+</html>
